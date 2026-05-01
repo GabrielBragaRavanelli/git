@@ -31,3 +31,25 @@
 // git pull, para puxar as mudanças do repositório remoto para o repositório local, ou seja, ele irá atualizar o repositório local com as mudanças do repositório remoto.
 // git push, para enviar as mudanças do repositório local para o repositório remoto, ou seja, ele irá atualizar o repositório remoto com as mudanças do repositório local.
 // git push origin master, faz com que as mundaãs no arquivo origin vá para o arquivo master.
+
+
+// Curso git e github - Terá comandos repitidis
+
+// Caso eu esteja dentro de uma pasta que está dentro de outra pasta, para eu voltar  para a primeira, eu tenho que usar o comando "cd .." duas vezes, ou seja, "cd .." + "cd ..".
+// rm serve para deletar um arquivo, ou seja, ele irá deletar o arquivo do meu computador, ou seja, ele irá retirar o arquivo do meu computador.
+// ls serve para listar os arquivos e pastas presentes em uma pasta, ou seja, ele irá mostrar os arquivos e pastas presentes em uma pasta. 
+// mkdir + o nome da pasta, para criar uma pasta, ou seja, ele irá criar uma pasta com o nome especificado.
+// nano + o nome do arquivo, para criar um arquivo e editar o arquivo, ou seja, ele irá criar um arquivo com o nome especificado e abrir o editor de texto nano para editar o arquivo.
+// cat + o nome do arquivo, para mostrar o conteúdo do arquivo.
+// E o comando clear para limpar o Terminal.
+// mv serve para mover o arquivo, só que se vc colocar  o nomde do arquivo e dedpois colocar outro nome, ele irá renomear o arquivo.
+// cd .. + nome da pasta, para entrar na pasta
+// git init + o nome do respotório para criar um repositório.
+// git status para mostrar os arquvios que foram modificados.
+// git add . , para mandar as modificações para o repositório virtual.
+// Apnas git add ( sem o ponto), para mandar um arquivo específico para o repositório virtual, ou seja, ele irá mandar apenas o arquivo especificado para o repositório virtual.
+// Caso eu tenha dado git add . em algum arquvio e eme arrependi, eu posso usar git rm --cached + o nome do arquivo, para retirar o arquivo do repositório virtual, ou seja, ele irá retirar o arquivo do repositório virtual, mas ele ainda estará presente no meu computador, ou seja, ele não será deletado.
+// git commit -m "comentário do commit", para confirmar a mudança.
+// git log puxa o histórico dos commits.
+// git log --oneline, para mostrar o histórico dos commits de forma resumida, ou seja, ele irá mostrar apenas o hash do commit e a mensagem do commit.
+
