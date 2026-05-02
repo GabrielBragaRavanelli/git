@@ -52,4 +52,16 @@
 // git commit -m "comentário do commit", para confirmar a mudança.
 // git log puxa o histórico dos commits.
 // git log --oneline, para mostrar o histórico dos commits de forma resumida, ou seja, ele irá mostrar apenas o hash do commit e a mensagem do commit.
+// Eu posso clocar o git add . + && + git commit -m "comentário do commit", para mandar as modificações para o repositório virtual e confirmar a mudança em um único comando, ou seja, ele irá mandar as modificações para o repositório virtual e confirmar a mudança em um único comando.
+// git revert + o hash do commit, para reverter as mudanças feitas em um commit específico, ou seja, ele irá criar um novo commit que irá reverter as mudanças feitas no commit especificado, ou seja, ele irá desfazer as mudanças feitas no commit especificado.
+// a tecla shift + : + q para sair do git log
+// git reset + o hash do commit, para resetar o repositório para um commit específico, ou seja, ele irá resetar o repositório para o commit especificado, ou seja, ele irá desfazer as mudanças feitas nos commits posteriores ao commit especificado, ou seja, ele irá voltar o repositório para o estado em que estava no commit especificado.
+// Normalmete, eme projetos da empresa, tem o .env, que guarda seha do banco de dados e etc. Portanto, para ignorar esse arquivo, eu preciso utilizar .gitignore.
+// git branch + nome da branch, para criar uma branch
+// git checkou + nome da branch, para entrar na branch craiada.
+// git checkout -b + nome a branch, para criar uma branch e ja entrar nela.
+// touch + nome do arquivo, pára criar um arquivo
+// rename + nome do arquivo + nome do novo arquivo, para renomear um arquivo, ou seja, ele irá renomear o arquivo especificado para o novo nome especificado.
+// git checkout + tab, para mostrar as branch criadas.
+// Para fundir as branch, deve utilizar git merge + o nome do arquivo.
 
