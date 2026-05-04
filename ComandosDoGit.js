@@ -64,4 +64,14 @@
 // rename + nome do arquivo + nome do novo arquivo, para renomear um arquivo, ou seja, ele irá renomear o arquivo especificado para o novo nome especificado.
 // git checkout + tab, para mostrar as branch criadas.
 // Para fundir as branch, deve utilizar git merge + o nome do arquivo.
-
+// Caso tenha um conflito, tipo, duas pessoas em duas branch diferentes colocam um background de cada cor e na hora de fazer a fusão para a main, o git irá mostrar o conflito e deve ser resolvido manualmente.
+// Eu posso colocar git push mais o codigo do repositória para que todas as mundaças feitas no repositório local sejam enviadas para o remoto.
+// git pull, para puxar as mudanças do repositório remoto para o repositório local, ou seja, ele irá atualizar o repositório local com as mudanças do repositório remoto.
+// O git colne + hash do repositório para copiar o código do repositório
+// remote -v, para mostrar os repositórios remotos configurados no repositório local, ou seja, ele irá mostrar os repositórios remotos configurados no repositório local, como o nome do repositório remoto e a URL do repositório remoto.
+// git commit -m "" --author="nome do autor <email do autor>", para criar um commit com um autor específico, ou seja, ele irá criar um commit com o nome do autor e o email do autor especificados, ao invés de usar o nome e email configurados no repositório local.
+// pull request, para solicitar a fusão de uma branch com a branch master, ou seja, ele irá solicitar a fusão de uma branch com a branch master, para que as mudanças feitas na branch sejam incorporadas na branch master.
+// merge request, para solicitar a fusão de uma branch com a branch master, ou seja, ele irá solicitar a fusão de uma branch com a branch master, para que as mudanças feitas na branch sejam incorporadas na branch master. O merge request é utilizado no GitLab, enquanto o pull request é utilizado no GitHub.
+// git pull origin master, para puxar as mudanças do repositório remoto para o repositório local, ou seja, ele irá atualizar o repositório local com as mudanças do repositório remoto, mas apenas da branch master, ou seja, ele irá atualizar o repositório local com as mudanças da branch master do repositório remoto.
+// No github, você pode fazer um fork do repositório, para criar uma cópia do repositório em sua conta do GitHub, ou seja, ele irá criar uma cópia do repositório em sua conta do GitHub, para que você possa fazer mudanças no repositório sem afetar o repositório original, ou seja, ele irá criar uma cópia do repositório em sua conta do GitHub, para que você possa fazer mudanças no repositório sem afetar o repositório original, e depois você pode solicitar a fusão das mudanças feitas na cópia do repositório com o repositório original, ou seja, ele irá solicitar a fusão das mudanças feitas na cópia do repositório com o repositório original, para que as mudanças feitas na cópia do repositório sejam incorporadas no repositório original.
+// E ainda pode fazer um pull request para solicitar a fusão das mudanças feitas na cópia do repositório com o repositório original.
